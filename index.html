@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Démonstrateurs Spring Batch & Co.</title>
+    <title>Projets.</title>
     <style>
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -63,74 +63,42 @@
 </head>
 <body>
     <header>
-        <h1>POCs Spring Batch & Projets Démo</h1>
-        <p>Vitrine de projets techniques</p>
+        <h1>Projets Démo</h1>
+        <p>description</p>
     </header>
 
     <nav>
         <a href="#intro">Accueil</a>
-        <a href="#springbatch">Spring Batch</a>
-        <a href="#CI">Gitlab CI build auto</a>
-        <a href="#autres">Autres projets</a>
+        <a href="#projet1">Projets</a>
+        <a href="#test">Projets en cours</a>
+        <a href="#test2">Autres projets</a>
     </nav>
 
     <main>
         <section id="intro">
             <h2>Présentation</h2>
-            <p>Site personnel dédié à mes POCs. Ici, vous trouverez mes expérimentations autour de Spring Batch, intégrées progressivement à des stacks plus riches (REST, Angular, H2, JPA...).</p>
-            <p>Le but est à la fois de montrer une montée en complexité maîtrisée et de proposer des démonstrateurs facilement testables, avec code source à l'appui.</p>
+            <p>Info</p>
         </section>
 
-        <section id="springbatch">
-            <h2>POCs Spring Batch</h2>
+        <section id="projet1">
+            <h2>POCs</h2>
             <ul>
                 <li>
-                    <h3>Lecture simple CSV</h3>
-                    <p>POC de base : lecture d'un fichier CSV et affichage des données en console.</p>
-                    <a class="btn" href="https://github.com/Nemezyx-Lab/springbatch-csv-reader">Code source</a>
-                </li>
-                <li>
-                    <h3>CSV + Jobs / Steps</h3>
-                    <p>Ajout de la structure job/step pour une meilleure modularité.</p>
-                    <a class="btn" href="https://github.com/Nemezyx-Lab/springbatch-csv-reader-job-step">Code source</a>
-                </li>
-                <li>
-                    <h3>CSV + BDD (JDBC)</h3>
-                    <p>Enregistrement des données lues dans une base de données via JDBC.</p>
-                    <a class="btn" href="https://github.com/Nemezyx-Lab/springbatch-csv-reader-job-step-bdd">Code source</a>
-                </li>
-                <li>
-                    <h3>CSV + BDD + Répartition modulaire</h3>
-                    <p>Utilisation de modules pour séparer lecture, traitement, persistance.</p>
-                    <a class="btn" href="https://github.com/Nemezyx-Lab/springbatch-csv-reader-job-step-bdd-modular">Code source</a>
-                </li>
-                <li>
-                    <h3>POC avec H2 + Thymleaf</h3>
-                    <p>Intégration front-end avec une page HTML dynamique et la BDD embarquée H2.</p>
-                    <a class="btn" href="https://github.com/Nemezyx-Lab/springbatch-csv-reader-bdd-modular-h2-Thymleaf">Code source</a>
-                </li>
-                <li>
-                    <h3>Thymleaf + JPA</h3>
-                    <p>Ajout de JPA pour une gestion ORM plus moderne.</p>
-                    <a class="btn" href="https://github.com/Nemezyx-Lab/springbatch-csv-reader-bdd-modular-jpa-Thymleaf">Code source</a>
-                </li>
-                <li>
-                    <h3>API REST + Angular</h3>
-                    <p>Le front Angular interagit avec l'API Spring Boot exposant les résultats.</p>
-                    <a class="btn" href="https://github.com/Nemezyx-Lab/springbatch-csv-reader-bdd-modular-jpa-Thymleaf-REST-Angular">Code source</a>
-                    <a class="btn" href="https://maison.nemezyx.fr:8081">Tester en direct</a>
+                    <h3>Projet 1</h3>
+                    <p>POC de base : <description>.</p>
+                    <a class="btn" href="https://github.com/Nemezyx-Lab/">Code source</a>
                 </li>
             </ul>
         </section>
 
-        <section id="CI">
-            <h2>En cours : GitLab CI (avec build automatique)</h2>
-            <p>Build de projets automatiques</p>
+        <section id="test">
+            <h2>En cours</h2>
+            <p>projets en cours</p>
         </section>
         
-        <section id="autres">
+        <section id="test2">
             <h2>Autres projets (à venir)</h2>
-            <p>Projets à venir autour de Kafka, Spark, traitement de logs, production solaire, etc.</p>
+            <p>Projets à venir.</p>
         </section>
 
     </main>
